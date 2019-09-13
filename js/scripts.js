@@ -17,7 +17,9 @@ $(document).ready(function(){
     $("div#show-3D").hide();
     if (roll === 1){
       $("div#showRoll").html('<svg viewBox="0 0 64 64" class="svgDice"><path class="svgFill" d="M57,4H7A3,3,0,0,0,4,7V57a3,3,0,0,0,3,3H57a3,3,0,0,0,3-3V7A3,3,0,0,0,57,4Zm1,53a1,1,0,0,1-1,1H7a1,1,0,0,1-1-1V7A1,1,0,0,1,7,6H57a1,1,0,0,1,1,1Z"/><circle class="svgFill" cx="32" cy="32" r="5.29"/></svg>');
-      
+      roll = 0;
+      $("div#turnOver").html("Turn Over");
+      $("div#showRoll").hide();
     } else if (roll === 2){
       $("div#showRoll").html('<svg viewBox="0 0 64 64" class="svgDice"><path class="svgFill" d="M57,4H7A3,3,0,0,0,4,7V57a3,3,0,0,0,3,3H57a3,3,0,0,0,3-3V7A3,3,0,0,0,57,4Zm1,53a1,1,0,0,1-1,1H7a1,1,0,0,1-1-1V7A1,1,0,0,1,7,6H57a1,1,0,0,1,1,1Z"/><circle class="svgFill" cx="42.25" cy="46.29" r="5.29"/><circle class="svgFill" cx="21.75" cy="17.71" r="5.29"/></svg>');
     } else if (roll === 3) {
