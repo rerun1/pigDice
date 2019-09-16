@@ -4,3 +4,15 @@
 .svgFill {
   fill: black;
 }
+.svgFillRed {
+  fill: red;
+}
+#rollOne {
+  display: none;
+}
+#displayRollsTotal {
+  display: none;
+}
+#newTurn {
+  display: none;
+}
