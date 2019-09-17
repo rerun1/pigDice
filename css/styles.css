@@ -1,3 +1,12 @@
+
+.buttons {
+  position: fixed;
+  left: 50px;
+  top: 200px;
+}
+.svgDice3D {
+  width:110px;
+}
 .svgDice {
   width: 100px;
 }
@@ -6,12 +15,6 @@
 }
 .svgFillRed {
   fill: red;
-}
-#rollOne {
-  display: none;
-}
-#displayRollsTotal {
-  display: none;
 }
 #newTurn {
   display: none;
